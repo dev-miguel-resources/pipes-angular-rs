@@ -1,12 +1,10 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core'
 
 @Pipe({
-  name: 'capitalizado'
+  name: 'capitalizado',
 })
 export class CapitalizadoPipe implements PipeTransform {
-
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform() {
+    
   }
-
 }

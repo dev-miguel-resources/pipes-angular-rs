@@ -1,12 +1,11 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core'
 
 @Pipe({
-  name: 'domseguro'
+  name: 'domseguro',
 })
 export class DomseguroPipe implements PipeTransform {
-
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  constructor() {}
+  transform() {
+    
   }
-
 }
