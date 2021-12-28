@@ -30,5 +30,6 @@ export class AppComponent {
   fecha: Date = new Date();
   nombre2: string = "jOrgE ANtoniO Perez domingueZ";
   activar: boolean = true;
+  video: string = "JVYd-EEgOf8";
 
 }
